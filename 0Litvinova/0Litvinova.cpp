@@ -3,9 +3,18 @@
 
 #include <iostream>
 
+void f()
+{
+    int x;
+}
+
 int main()
 {
+    int x;
+    std::cin >> x;
+    f();
     std::cout << "Hello World!\n";
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
